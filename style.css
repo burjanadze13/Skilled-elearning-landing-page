@@ -1,0 +1,254 @@
+@media screen and (min-width: 375px) {
+    #tablet{
+        display:none;
+    }
+    #desktop{
+        display:none;
+    }
+    body{
+        margin:0px;
+    }
+    #navbar-right > p{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background-color:#13183F;
+        padding: 9px 24px;
+        margin:0px;
+        border-radius:30px;
+        width:92px;
+    }
+    #navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:9px;
+        padding:0px 16px;
+    }
+    #navbar > img{
+        height: 25px;
+        width:89px;
+    }
+    #first{
+        padding:0px 16px;
+    }
+    #first > h1{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #13183F;
+    }
+    #first > p{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+    }
+    #GetStarted{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        padding: 15px 35px;
+        width:97px;
+    }
+    #mainpic>#mobile{
+        margin-top:40px;
+        margin-left:-60px;
+        padding:0px 16px;
+    }
+    #boxes{
+        padding:0px 16px;
+        background-color: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+    #dif-box{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 10px;
+        width: 287px;
+        height: 120px;
+        display:flex;
+        align-items: center;
+        padding:0px 28px;
+    }
+    .box{
+        width:343px;
+        height:259px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin-top:40px;
+    }
+    .box img{
+        padding-left: 28px;
+        margin-top: -25px;
+    }
+    .box h1{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        color: #13183F;
+        padding-left: 28px;
+    }
+    .box p{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+        padding:0px 28px;
+    }
+    .box span{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F74780;
+        padding-left: 28px;
+    }
+    #last{
+        background: #13183F;
+        height:120px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 16px;
+        margin-top:120px;
+    }
+    #last > #lastGetStarted{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color:#FFFFFF;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        border-radius: 28px;
+        padding:9px 24px;
+        width:96px;
+    }
+
+}
+@media screen and (min-width: 768px) {
+        body{
+            overflow-x: hidden;
+        }
+        #tablet{
+            display:block;
+            position: absolute;
+            right: -300px;
+            top: -70px;
+            overflow-x: hidden;
+
+        }
+        #mobile{
+            display:none;
+        }
+        #desktop{
+            display:none;
+        }
+        #navbar{
+            padding:30px 40px;
+        }
+        #first {
+            width:398px;
+            padding-left:39px;
+        }
+        #dif-box{
+            width:286px;
+            height:244px;
+            display:flex;
+            align-items: flex-start;
+            padding: 56px 21px 0px 32px;
+        }
+        #boxes{
+            margin-top:300px;
+            display:grid;
+            grid-template-columns: auto auto;
+            column-gap: 20px;
+            row-gap: 55px;
+            padding: 0px 32px;
+        }
+        #last{
+            padding: 0px 40px;
+        }
+}
+@media screen and (min-width: 1440px) {
+    body{
+        overflow-x:hidden ;
+    }
+    #tablet{
+        display:none;
+    }
+    #mobile{
+        display:none;
+    }
+    #desktop{
+        display:block;
+        position: absolute;
+        right: -300px;
+        top: -110px;
+    }
+    #navbar{
+        padding:35px 165px 0px 165px;
+    }
+    #first{
+        padding:0px 165px;
+        width:457px;
+    }
+    #first h1{
+        font-size: 56px;
+        line-height: 71px;
+        margin-top: 178px;
+    }
+    #first p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #boxes{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+        row-gap: 80px;
+        padding: 0px 165px;
+    }
+    #last{
+        padding:0px 165px;
+    }
+    #navbar-right >p:hover{
+        cursor: pointer;
+        background: #666CA3;
+    }
+    #GetStarted:hover{
+        cursor: pointer;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }   
+    #box > span:hover{
+        cursor: pointer;
+        color: #FFA7C3;
+    }
+    #lastGetStarted:hover{
+        cursor:pointer;
+        background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+}
+
